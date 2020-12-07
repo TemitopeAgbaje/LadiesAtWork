@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                
+                        <img src="materialize/Image/k2.jpg" width="50px" height="50px" class="circle">
+                    <a href="#!" class="brand-logo">Kirsty's Restaurant</a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Dishes</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+        
+                <ul class="sidenav" id="mobile-links">
+                    <li><a href="#">Home</a></li> 
+                    <li><a href="#">Dishes</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                </div>
+            
+        </nav> 
+    </header>
+
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="materialize/Image/rice.jpg" alt="picture">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Chinese rice</span>
+                        <p>Rice up!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Order Now</a>
+                        <a href="#">Save For Later</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="materialize/Image/chicken.jpg" alt="picture">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Chicken</span>
+                        <p>Are you chicken me out?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Order Now</a>
+                        <a href="#">Save For Later</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="materialize/Image/spagh.jpg" alt="picture">
+                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                            <i class="material-icons">favorite</i>
+                        </a>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Jollof Spag</span>
+                        <p>Pasta la vista everyone!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Order Now</a>
+                        <a href="#">Save For Later</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--collections-->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <img src="materialize/Image/k.jpg" class="circle">
+                        <span class="title">Miss Kay</span>
+                        <p>A lawyer and web developer</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 m6 l6">
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <img src="materialize/Image/k2.jpg" class="circle">
+                        <span class="title">Miss Kay</span>
+                        <p>An enthusiastic food lover and traveller</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer center pink">
+        <div class="container">
+            <div class="row">
+                <marquee>
+                    <p>This is Kirsty's footer</p>
+                </marquee>
+            </div>
+        </div>
+        <div class="footer-copyright center">
+            <div class="container">
+                <p>Designed by Kirsty for <a href="https://pearlsafrica.org">Pearls Africa</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+        <script src="materialize/js/jquery.js"></script>
+        <script src="materialize/js/materialize.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+        </script>
+        
+
+</body>
+</html>
+

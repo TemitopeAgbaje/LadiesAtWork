@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/font/material-icons.css">
+</head>
+<body>
+    <h1>Welcome to JQuery</h1>
+    <h4>On JQuery</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia at obcaecati. Quod doloremque voluptas nisi vero neque architecto libero.</p>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $("p").hide();
+           //alert("Hello!");
+           
+           $(document).mouseover(function(){
+            $(this).hide();
+         });
+        });
+    </script>
+</body>
+</html>

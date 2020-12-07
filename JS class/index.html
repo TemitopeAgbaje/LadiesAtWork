@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the letter</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form id="form">
+        <div class="content">
+            <div class="card">
+              <h2>Guess the Letter</h2>
+              <p>Instructions:<br>
+                <br>
+                  Type a word
+                  <br>
+                  Click on generate <br>
+                  It will give you the third letter of your word <br>
+                  If it is the same as the Random letter,you WIN
+                </ul> 
+              </p>
+              
+              <label>Type here:</label>
+              <input type="text" id="third" minlength="3" required>
+             
+              <br><br>
+              <div>
+                  <label>Random letter:</label>
+                <input type = "text" id = "user" >
+                <br>
+                <br>
+                  <button id="btn">Generate</button>
+              </div>
+            </div>
+        
+         </div>
+    </form>
+    <script src="assets/js/minigame.js"></script>
+</body>
+</html>

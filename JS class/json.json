@@ -1,0 +1,20 @@
+{
+    "people":[
+        {
+            "name":"Yinka",
+            "age":22
+        },
+        {
+            "name":"Ololade",
+            "age":21
+        },
+        {
+            "name":"Kayode",
+            "age":20
+        },
+        {
+            "name":"Atheer",
+            "age":21
+        }
+    ]
+}

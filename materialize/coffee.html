@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script> src="materialize/js/materialize.min.js" </script>
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <style>
+        header{
+            background: url(./cofeebean.jpeg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        .parallax-container{
+            height: 300px;
+        }
+        @media screen and (max-width: 670px) {
+          header{
+                min-height: 500px;
+            }
+        }
+        #txt2{
+            font-size: 21px;
+            line-height: 24px;
+        }
+        .material-icons{
+            display: inline-flex;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body background-color="brown">
+    <header>
+        <div class="navbar-fixed">
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a href="" class="brand-logo">
+                    COFFEE
+                </a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i> 
+                </a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#videos">VIDEOS</a></li>
+                    <li><a href="#">RECIPES</a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#videos">VIDEOS</a> </li>
+                    <li><a href="#">RECIPES</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <h2 class="brown-text center-align" id="videos">RECIPE VIDEOS</h2> 
+    <div class="row center-align">
+        <div class="col s12 m12 l3 offset-l1">
+            <div class="card">
+                <div class="video-container">
+                    <video class="responsive-video" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="853" height="480" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="card-content ">
+                    <span class="card-title brown-text"> BREAKFAST</span>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, velit!</p>
+
+                </div>
+                <div class="card-action brown lighten-3">
+                    <a href="#" class="white-text">VIEW INGREDIENTS</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col s12 m12 l3 ">
+            <div class="card ">
+                <div class="video-container">
+                    <video class="responsive-video" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="540" height="200" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="card-content ">
+                    <span class="card-title brown-text">BRUNCH</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ullam!</p>
+                </div>
+                <div class="card-action brown lighten-3">
+                    <a href="#" class="white-text">VIEW INGREDIENTS</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col s12 m12 l3  ">
+            <div class="card">
+                <div class="video-container">
+                    <video class="responsive-video" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                    </video>
+                    <iframe width="853" height="480" frameborder="0" allowfullscreen></iframe>
+
+                </div>
+                <div class="card-content ">
+                    <span class="card-title brown-text">LUNCH</span>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, dolorum.</p>
+
+                </div>
+                <div class="card-action brown lighten-3">
+                    <a href="#" class="white-text">VIEW INGREDIENTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./c3.jpeg">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col s12 m12 l6 center-align">
+        <h3 class="brown-text" id="about">ABOUT US</h3>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam soluta, assumenda porro magnam tempore quam exercitationem placeat nobis, autem delectus quis, mollitia suscipit nihil rerum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, adipisci.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sequi adipisci ab, necessitatibus odit ut deserunt dolores illo eaque, distinctio cumque. Animi ducimus delectus nostrum.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis perferendis quae, delectus recusandae nulla, numquam neque mollitia, ducimus officia explicabo illum tempora necessitatibus aliquid?</p>
+        <a class="waves-effect waves-light grey brown-text btn">KNOW MORE</a>
+        </div>
+        <div class="col s12 m12 l4 offset-l1">
+            <img src="./coffee.jpeg" width="100%">
+        </div>
+    </div>
+    <footer class="page-footer brown darken-3">
+        <div class="container ">
+            <h5 class="center-align">CONTACT US</h5>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <i class="material-icons prefix">email</i>
+                        <span>: agbajeinioluwa@gmail.com</span>
+                    </div>
+                   <i class="material-icons prefix">phone</i>
+                   <span id="txt1">: 09099649908</span>
+                   <br>
+                   <i class="material-icons prefix">room</i>
+                   <span id="txt1">: Ikorodu,Lagos </span>
+                    
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5></h5>
+                    <ul>
+                        <li><a href="#" class="grey-text text-lighten-3">FACEBOOK</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">INSTAGRAM</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">SNAPCHAT</a></li>
+                        <li><a href="#" class="grey-text text-lighten-3">LINKEDIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright brown darken-4">
+           <div class="container center-align">&copy;2020 Tope Agbaje</div>    
+        </div>
+    </footer>
+    
+
+<script src="materialize/js/jquery.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav()
+        $('.parallax').parallax()
+    });
+</script>
+</body>
+</html>

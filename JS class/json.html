@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Sandox</title>
+</head>
+<body>
+    <ul id="people"></ul>
+    <script>
+       /* var person = {
+            name : "Tope",
+            age: 12,
+            address: {
+                street: "25 main str",
+                city: "Boston"
+            },
+            children:["Tife","Tise"]
+        }
+
+        //person = JSON.stringify(person);
+        //person = JSON.parse(person);
+
+
+        var people = [
+            {
+                name:"Yinka",
+                age:22
+            },
+            {
+                name:"lolade",
+                age:21
+            },
+            {
+                name:"kayode",
+                age:20
+            },
+            {
+                name:"Atheer",
+                age:21
+            },
+
+        ]
+
+        //console.log(people[2].name);
+        var output = '';
+        for(var i = 0; i < people.length;i++){
+            //console.log(people[i].name);
+            output += '<li>' + people[i].name +'</li>';
+                }
+        document.getElementById('people').innerHTML = output;
+        */
+        
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            //console.log(xhttp.responseText);
+            var response= JSON.parse(xhttp.responseText);
+            //console.log(response.people);
+            var people = response.people;
+
+            
+            var output = '';
+        for(var i = 0; i < people.length;i++){
+            //console.log(people[i].name);
+            output += '<li>' + people[i].name +'</li>';
+                }
+        document.getElementById('people').innerHTML = output;
+            }
+        };
+        xhttp.open("GET", "json.json", true);
+        xhttp.send();
+    </script>
+</body>
+</html>

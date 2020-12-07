@@ -1,0 +1,24 @@
+label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{background-color: lightgray;
+     margin:auto;
+    text-align: center;}
+h2{ color:black;
+padding:10px;
+font-family: cursive;
+text-align: center;}
+#btn{ height: 30px; width: 100px;
+    color:#ffffff;
+    background-color: dodgerblue;
+    border:none;
+    padding:5px;
+    border-radius: 5px;}
+    p{
+        font-size: 10px;
+        color: black;
+        font-family: cursive;
+        font-style: italic;
+        
+    }    

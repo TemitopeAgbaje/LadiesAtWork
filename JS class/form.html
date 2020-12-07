@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+</head>
+<body>
+    <form name="myForm" id="my-for" action="#">
+        <label for="name" > Name:</label>
+        <input type="text" name="name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <h3>Likes</h3>
+        <input type="checkbox" name="coding" value="coding">Coding
+        <br>
+        <input type="checkbox" name="cooking" value="cooking">Cooking
+        <br>
+        <input type="checkbox" name="surfing" value="surfing">Surfing
+        <br>
+        <input type="checkbox" name="reading" value="reading">Reading      
+        <br>
+        <br>
+        <label for="food">Select your food choice</label>
+        <br>
+
+        <select name="food"> 
+            <option>rice</option>
+            <option>fufu</option>
+            <option>Moi moi</option>
+            <option> Amala</option>
+            <ooption> indomie </ooption>
+        </select>
+        <br>
+        <input type="submit" name="submit" value="submit">
+        <div id="message" style="color:red;"></div>
+    </form>
+    <script src="assets/js/form.js"></script>
+</body>
+</html>
